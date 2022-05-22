@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link href="https://fonts.googleapis.com/css2?family=Macondo&family=Plus+Jakarta+Sans:wght@200&display=swap" rel="stylesheet">
+    
+    <script src="https://kit.fontawesome.com/539e9fb9e0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="app.css">
+    
+   
+</head>
+<body>
+    <div class="container">
+        
+            <div class="images">
+                <img class="mImage" src="img/jacinto-1.jpg">
+            </div>
+            
+                <h2 id="title">Electric Chill Machine</h2>
+                <h3 id="artist">Jacinto Design</h3>
+            
+            <audio src="music/jacinto-1.mp3" ></audio>
+            <div class="progress-container" id="progress-container">
+            <div class="progress" id="progress"></div>
+            <div class="duration" id="duration">
+                <span id="start">0:00</span>
+                <span id="end">2.06</span>
+            </div>
+            </div>
+            <div class="buttons">
+                <i class="fas  fa-backward-step" id="prev"></i>
+                <i class="fas  fa-play" id="play"></i>
+                <i class="fas  fa-forward-step" id="next"></i>
+                
+            </div>
+        </div>
+    <script src="app.js"></script>
+</body>
+</html>
